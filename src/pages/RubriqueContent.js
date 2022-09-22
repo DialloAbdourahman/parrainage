@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Modal from '../components/Modal';
 import { useGlobalContext } from '../context';
 import { rubriques } from '../data';
+import Goback from '../components/Goback';
 
 const RubriqueContent = () => {
   const {
@@ -27,6 +28,7 @@ const RubriqueContent = () => {
 
   return (
     <section>
+      <Goback />
       <h1>
         {specialty} / {rubrique}
       </h1>

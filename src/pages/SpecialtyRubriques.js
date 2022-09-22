@@ -3,6 +3,7 @@ import { useGlobalContext } from '../context';
 import { rubriques } from '../data';
 import { useParams } from 'react-router-dom';
 import Rubrique from '../components/Rubrique';
+import Goback from '../components/Goback';
 
 const SpecialtyRubriques = () => {
   const { data } = useGlobalContext();
@@ -18,6 +19,7 @@ const SpecialtyRubriques = () => {
   if (rubriqueList.length === 0) {
     return (
       <section>
+        <Goback />
         <h1>Nothing more rubriques to show in this specialty</h1>
       </section>
     );
@@ -25,6 +27,7 @@ const SpecialtyRubriques = () => {
 
   return (
     <section>
+      <Goback />
       <h1>{specialty} Rubriques</h1>
       <div>
         {rubriqueList.map((item) => {
