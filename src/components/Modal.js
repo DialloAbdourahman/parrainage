@@ -51,7 +51,7 @@ const Modal = () => {
   return (
     <div className='Modal' ref={divOverlay}>
       <div className='inside'>
-        <h1>congratulations !!! </h1>
+        <h1>CONGRATULATIONS!</h1>
         <h2>Your parrain is {text}</h2>
         <button onClick={closeModal}>close</button>
       </div>

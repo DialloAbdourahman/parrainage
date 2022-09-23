@@ -27,17 +27,17 @@ const RubriqueContent = () => {
   }, [data]);
 
   return (
-    <section>
+    <section className='section'>
       <Goback />
       <h1>
         {specialty} / {rubrique}
       </h1>
-      <div>
+      <div className='Rubrique'>
         {teachers.map((teacher) => {
           const { imageUrl, name, id } = teacher;
           return (
-            <article key={teacher.id}>
-              <img src={imageUrl} alt='' />
+            <article className='subRubiqueImg' key={teacher.id}>
+              <img className='rubriqueImg' src={imageUrl} alt='' />
               <button onClick={() => openModal(name, id)}>Discover</button>
             </article>
           );

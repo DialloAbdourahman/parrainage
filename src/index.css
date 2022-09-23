@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  text-decoration: none;
 }
 
 /* Modal component styling comes here */
@@ -17,15 +20,175 @@
   justify-content: center;
   align-items: center;
 }
-
 .Modal .inside {
-  background-color: red;
+  background-color: whitesmoke;
   padding: 20px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Modal .inside button {
+  margin: 15px 0;
+  padding: 5px 10px;
+  font-size: 25px;
+  background-color: rgba(155, 155, 155, 0.616);
+  border: none;
+  border-bottom: 4px solid transparent;
+  transition: border 0.2s linear;
+  border-radius: 5px;
+}
+.Modal .inside button:hover {
+  color: rgba(31, 15, 68, 0.616);
+  border-bottom: 4px solid rgba(31, 15, 68, 0.616);
 }
 
 /* Goback component styling comes here */
 .Goback {
   display: flex;
   justify-content: flex-end;
+}
+
+/* Navbar styling comes here */
+.Navbar {
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  height: 120px;
+}
+.Navbar .logo {
+  width: 200px;
+}
+.Navbar .links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  margin-right: 10%;
+}
+
+.Navbar .links a {
+  margin: 0 35px;
+  border-bottom: 4px solid transparent;
+  font-weight: bold;
+  transition: border 0.2s linear;
+}
+
+.Navbar .links a:hover {
+  border-bottom: 4px solid rgba(31, 15, 68, 0.616);
+  color: rgba(31, 15, 68, 0.616);
+}
+
+.Navbar a {
+  text-decoration: none;
+  margin: 0px;
+}
+
+.Navbar .resetBtn {
+  padding: 4px 15px;
+  font-size: large;
+  font-weight: bold;
+  color: rgba(255, 0, 85, 0.637);
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  background-color: rgba(255, 0, 85, 0.068);
+  margin-bottom: 15px;
+  transition: background 0.2s linear;
+  transition: border 0.2s linear;
+}
+
+.Navbar .resetBtn:hover {
+  border-bottom: 3px solid rgba(255, 0, 85, 0.377);
+  background-color: transparent;
+}
+
+.Homeimg {
+  height: 80vh;
+  width: 100vw;
+  object-fit: contain;
+}
+
+.backBtn {
+  font-size: 40px;
+  margin: 20px 50px;
+  background-color: transparent;
+  border: none;
+}
+
+.arrow:hover {
+  fill: rgba(31, 15, 68, 0.616);
+}
+
+.Rubrique {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 5%;
+}
+.Rubrique .subRubiqueImg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin: 3%;
+  padding: 2%;
+  font-size: larger;
+  transition: background 0.2s linear;
+}
+
+.Rubrique .subRubiqueImg:hover {
+  background-color: rgb(221, 219, 219);
+  color: rgba(31, 15, 68, 0.616);
+}
+
+.Rubrique .subRubiqueImg:hover h4 {
+  color: rgba(31, 15, 68, 0.616);
+}
+
+.Rubrique .subRubiqueImg h4,
+button {
+  margin: 15px 0;
+}
+
+.Rubrique .subRubiqueImg button:hover {
+  color: rgba(31, 15, 68, 0.616);
+}
+
+.Rubrique .subRubiqueImg button {
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: rgba(155, 155, 155, 0.616);
+  border: none;
+  border-bottom: 4px solid transparent;
+  transition: border 0.2s linear;
+  border-radius: 5px;
+}
+
+.Rubrique .subRubiqueImg button:hover {
+  border-bottom: 4px solid rgba(31, 15, 68, 0.616);
+}
+
+.Rubrique .subRubiqueImg .rubriqueImg {
+  width: 75%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 3%;
+  font-size: 50px;
 }
