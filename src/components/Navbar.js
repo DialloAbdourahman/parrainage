@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { useGlobalContext } from '../context';
 
 const Navbar = () => {
   const { resetEveryThing, data } = useGlobalContext();
+  const navigate = useNavigate();
 
   return (
     <nav className='Navbar'>
@@ -15,7 +16,13 @@ const Navbar = () => {
         <Link to={'/specialty/rubriques/GETEL'}>GETEL</Link>
         {/* {data.length === 0 && <button onClick={resetEveryThing}>Reset</button>} */}
       </div>
-      <button className='resetBtn' onClick={resetEveryThing}>
+      <button
+        className='resetBtn'
+        onClick={() => {
+          navigate('/');
+          resetEveryThing();
+        }}
+      >
         RESET !
       </button>
     </nav>

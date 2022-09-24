@@ -34,10 +34,11 @@ const RubriqueContent = () => {
       </h1>
       <div className='Rubrique'>
         {teachers.map((teacher) => {
-          const { imageUrl, name, id } = teacher;
+          const { imageUrl, name, id, title } = teacher;
           return (
             <article className='subRubiqueImg' key={teacher.id}>
               <img className='rubriqueImg' src={imageUrl} alt='' />
+              <h4 style={{ textTransform: 'capitalize' }}>{title}</h4>
               <button onClick={() => openModal(name, id)}>Discover</button>
             </article>
           );

@@ -7,6 +7,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/baileys.jpg',
+    title: 'baileys',
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/belaire.jpg',
+    title: 'belaire',
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/campari.jpg',
+    title: 'campari',
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/chivas.jpg',
+    title: 'chivas',
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/jackdaniels.jpg',
+    title: 'jack daniels',
   },
   {
     id: 6,
@@ -42,6 +47,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/tequilla.jpg',
+    title: 'tequilla',
   },
   {
     id: 7,
@@ -49,6 +55,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 1,
     imageUrl: '/images/rubriques/GELE/alcools/vodka.jpg',
+    title: 'vodka',
   },
   {
     id: 8,
@@ -56,6 +63,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 2,
     imageUrl: '/images/rubriques/GELE/bouffe/eru.png',
+    title: 'eru',
   },
   {
     id: 9,
@@ -63,6 +71,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 2,
     imageUrl: '/images/rubriques/GELE/bouffe/koki.jpg',
+    title: 'koki',
   },
   {
     id: 10,
@@ -70,6 +79,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 2,
     imageUrl: '/images/rubriques/GELE/bouffe/nkui.jpg',
+    title: 'nkui',
   },
   {
     id: 11,
@@ -77,6 +87,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 2,
     imageUrl: '/images/rubriques/GELE/bouffe/okok.jpg',
+    title: 'okok',
   },
   {
     id: 12,
@@ -84,6 +95,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 2,
     imageUrl: '/images/rubriques/GELE/bouffe/pilé.jpg',
+    title: 'pilé',
   },
   {
     id: 13,
@@ -91,6 +103,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 2,
     imageUrl: '/images/rubriques/GELE/bouffe/tarosaucejaune.jpg',
+    title: 'taro sauce jaune',
   },
   {
     id: 14,
@@ -98,6 +111,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/365jours.jpg',
+    title: '365 jours',
   },
   {
     id: 15,
@@ -105,6 +119,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/annabelle.jpg',
+    title: 'annabelle',
   },
   {
     id: 16,
@@ -112,6 +127,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/ça.jpg',
+    title: 'ça',
   },
   {
     id: 17,
@@ -119,6 +135,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/chapelledudiable.jpg',
+    title: 'chapelle du diable',
   },
   {
     id: 18,
@@ -126,6 +143,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/fastandfurious.jpg',
+    title: 'fast and furious',
   },
   {
     id: 19,
@@ -133,6 +151,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/host.jpg',
+    title: 'host',
   },
   {
     id: 20,
@@ -140,6 +159,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 7,
     imageUrl: '/images/rubriques/GELE/film/lanonne.jpg',
+    title: 'la nonne',
   },
   {
     id: 21,
@@ -147,6 +167,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 4,
     imageUrl: '/images/rubriques/GELE/mangas/attaquedestitans.jpg',
+    title: 'attaque des titans',
   },
   {
     id: 22,
@@ -154,6 +175,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 4,
     imageUrl: '/images/rubriques/GELE/mangas/blackclover.jpg',
+    title: 'black clover',
   },
   {
     id: 23,
@@ -161,6 +183,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 4,
     imageUrl: '/images/rubriques/GELE/mangas/demonslayer.jpg',
+    title: 'demon slayer',
   },
   {
     id: 24,
@@ -168,6 +191,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 4,
     imageUrl: '/images/rubriques/GELE/mangas/dragonball.jpg',
+    title: 'dragon ball',
   },
   {
     id: 25,
@@ -175,6 +199,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 4,
     imageUrl: '/images/rubriques/GELE/mangas/hunterxhunter.jpg',
+    title: 'hunter x hunter',
   },
   {
     id: 26,
@@ -182,6 +207,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 4,
     imageUrl: '/images/rubriques/GELE/mangas/naruto.jpg',
+    title: 'naruto',
   },
 
   {
@@ -190,6 +216,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/adidas.jpg',
+    title: 'adidas',
   },
   {
     id: 28,
@@ -197,6 +224,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/chanel.jpg',
+    title: 'chanel',
   },
   {
     id: 29,
@@ -204,6 +232,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/dior.jpg',
+    title: 'dior',
   },
   {
     id: 30,
@@ -211,6 +240,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/h&m.jpg',
+    title: 'h & m',
   },
   {
     id: 31,
@@ -218,6 +248,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/lacoste.png',
+    title: 'lacoste',
   },
   {
     id: 32,
@@ -225,6 +256,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/nike.jpg',
+    title: 'nike',
   },
   {
     id: 33,
@@ -232,6 +264,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 5,
     imageUrl: '/images/rubriques/GELE/marques/zara.jpg',
+    title: 'zara',
   },
   {
     id: 34,
@@ -239,6 +272,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/audi.jpg',
+    title: 'audi',
   },
   {
     id: 35,
@@ -246,6 +280,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/bmw.jpg',
+    title: 'bmw',
   },
   {
     id: 36,
@@ -253,6 +288,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/ferrari.webp',
+    title: 'ferrari',
   },
   {
     id: 37,
@@ -260,6 +296,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/lamborghini.jpg',
+    title: 'lamborghini',
   },
   {
     id: 38,
@@ -267,6 +304,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/landrover.jpg',
+    title: 'land rover',
   },
   {
     id: 39,
@@ -274,6 +312,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/lexus.jpg',
+    title: 'lexus',
   },
   {
     id: 40,
@@ -281,6 +320,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/mercedes-benz.jpg',
+    title: 'mercedes-benz',
   },
   {
     id: 41,
@@ -288,6 +328,7 @@ const data = [
     specialty: 'GELE',
     rubrique: 6,
     imageUrl: '/images/rubriques/GELE/voitures/porsche.jpg',
+    title: 'porsche',
   },
   {
     id: 42,
@@ -295,6 +336,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/durex.jpg',
+    title: 'durex',
   },
   {
     id: 43,
@@ -302,6 +344,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/manix.png',
+    title: 'manix',
   },
   {
     id: 44,
@@ -309,6 +352,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/skin.jpg',
+    title: 'skin',
   },
   {
     id: 45,
@@ -316,6 +360,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/soft.jpg',
+    title: 'soft',
   },
   {
     id: 46,
@@ -323,6 +368,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/44,niska.jpg',
+    title: '44,niska',
   },
   {
     id: 47,
@@ -330,6 +376,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/enfer,stromae.jpg',
+    title: 'enfer,stromae',
   },
   {
     id: 48,
@@ -337,6 +384,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/jefe,ninho.jpg',
+    title: 'jefe,ninho',
   },
   {
     id: 49,
@@ -344,6 +392,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/macarenaa,damso.jpg',
+    title: 'macarenaa,damso',
   },
   {
     id: 50,
@@ -351,6 +400,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/telephone,booba.jpg',
+    title: 'telephone,booba',
   },
 
   {
@@ -359,6 +409,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/dynastie.jpg',
+    title: 'dynastie',
   },
   {
     id: 52,
@@ -366,6 +417,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/riverdale.png',
+    title: 'riverdale',
   },
   {
     id: 53,
@@ -373,6 +425,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/scandal.jpg',
+    title: 'scandal',
   },
   {
     id: 54,
@@ -380,6 +433,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/vampirediaries.jpg',
+    title: 'vampire diaries',
   },
 
   {
@@ -388,6 +442,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/booba.jpg',
+    title: 'booba',
   },
   {
     id: 56,
@@ -395,6 +450,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/damso.jpg',
+    title: 'damso',
   },
   {
     id: 57,
@@ -402,6 +458,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/MJ.jpg',
+    title: 'michael jackson',
   },
   {
     id: 58,
@@ -409,6 +466,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/ninho.jpg',
+    title: 'ninho',
   },
   {
     id: 59,
@@ -416,6 +474,7 @@ const data = [
     specialty: 'GETEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/niska.jpg',
+    title: 'niska',
   },
 ];
 

@@ -40,7 +40,7 @@ const Modal = () => {
 
   const closeModal = () => {
     dispatch({ type: 'CLOSE_MODAL' });
-    navigate('/');
+    navigate(-1);
   };
 
   useEffect(() => {
