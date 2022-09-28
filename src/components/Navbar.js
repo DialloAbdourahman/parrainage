@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <nav className='Navbar'>
       <Link to={'/'}>
-        <img src={'/images/logo.png'} alt='' className='logo' />
+        <img src={'/images/Parrainage.png'} alt='' className='logo' />
       </Link>
       <div className='links'>
-        <Link to={'/specialty/rubriques/GELE'}>GELE</Link>
-        <Link to={'/specialty/rubriques/GETEL'}>GETEL</Link>
+        <Link to={'/specialty/rubriques/GELE'}>PARRAINAGE 3GELE</Link>
+        <Link to={'/specialty/rubriques/GETEL'}>PARRAINAGE 3GETEL</Link>
         {/* {data.length === 0 && <button onClick={resetEveryThing}>Reset</button>} */}
       </div>
       <button

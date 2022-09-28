@@ -28,7 +28,7 @@ const SpecialtyRubriques = () => {
   return (
     <section className='section'>
       <Goback />
-      <h1>{specialty} Rubriques</h1>
+      <h1>RUBRIQUES DU {specialty} </h1>
       <div className='Rubrique'>
         {rubriqueList.map((item) => {
           const found = rubriques.find((rubrique) => rubrique.id === item);
