@@ -13,7 +13,7 @@ const Navbar = () => {
       </Link>
       <div className='links'>
         <Link to={'/specialty/rubriques/GELE'}>PARRAINAGE 3GELE</Link>
-        <Link to={'/specialty/rubriques/GETEL'}>PARRAINAGE 3GETEL</Link>
+        <Link to={'/specialty/rubriques/GTEL'}>PARRAINAGE 3GTEL</Link>
         {/* {data.length === 0 && <button onClick={resetEveryThing}>Reset</button>} */}
       </div>
       <button

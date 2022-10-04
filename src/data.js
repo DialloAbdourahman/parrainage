@@ -333,7 +333,7 @@ const data = [
   {
     id: 42,
     name: 'ONDIGUI GERMAINE',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/durex.jpg',
     title: 'durex',
@@ -341,7 +341,7 @@ const data = [
   {
     id: 43,
     name: 'MBOCK ISMAEL',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/manix.png',
     title: 'manix',
@@ -349,7 +349,7 @@ const data = [
   {
     id: 44,
     name: 'KOUNGOU FERNAND',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/skin.jpg',
     title: 'skin',
@@ -357,7 +357,7 @@ const data = [
   {
     id: 45,
     name: 'AKEM LOIC',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 8,
     imageUrl: '/images/rubriques/getel/capotes/soft.jpg',
     title: 'soft',
@@ -365,7 +365,7 @@ const data = [
   {
     id: 46,
     name: 'MBA DAVID',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/44,niska.jpg',
     title: '44,niska',
@@ -373,7 +373,7 @@ const data = [
   {
     id: 47,
     name: 'ZAMO',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/enfer,stromae.jpg',
     title: 'enfer,stromae',
@@ -381,7 +381,7 @@ const data = [
   {
     id: 48,
     name: 'MBASSI MBELLE',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/jefe,ninho.jpg',
     title: 'jefe,ninho',
@@ -389,7 +389,7 @@ const data = [
   {
     id: 49,
     name: 'OYANA MELODIE',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/macarenaa,damso.jpg',
     title: 'macarenaa,damso',
@@ -397,7 +397,7 @@ const data = [
   {
     id: 50,
     name: 'MANGA FOE',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 9,
     imageUrl: '/images/rubriques/getel/musiques/telephone,booba.jpg',
     title: 'telephone,booba',
@@ -406,7 +406,7 @@ const data = [
   {
     id: 51,
     name: 'MOMO METCHOP GYREL',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/dynastie.jpg',
     title: 'dynastie',
@@ -414,7 +414,7 @@ const data = [
   {
     id: 52,
     name: 'TCHOUNTANG SERENA',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/riverdale.png',
     title: 'riverdale',
@@ -422,7 +422,7 @@ const data = [
   {
     id: 53,
     name: 'FONKOU TCHINDA',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/scandal.jpg',
     title: 'scandal',
@@ -430,7 +430,7 @@ const data = [
   {
     id: 54,
     name: 'NCHANG JETHRO',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 10,
     imageUrl: '/images/rubriques/getel/SERIES/vampirediaries.jpg',
     title: 'vampire diaries',
@@ -439,7 +439,7 @@ const data = [
   {
     id: 55,
     name: 'ESSAMA ANTHONY',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/booba.jpg',
     title: 'booba',
@@ -447,7 +447,7 @@ const data = [
   {
     id: 56,
     name: 'OKALA XAVIER',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/damso.jpg',
     title: 'damso',
@@ -455,15 +455,15 @@ const data = [
   {
     id: 57,
     name: 'NEOSSI TCHINDA',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/MJ.jpg',
     title: 'michael jackson',
   },
   {
     id: 58,
-    name: 'NSOMO CEDRICK',
-    specialty: 'GETEL',
+    name: 'NSOMO CÉDRIC',
+    specialty: 'GTEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/ninho.jpg',
     title: 'ninho',
@@ -471,10 +471,35 @@ const data = [
   {
     id: 59,
     name: 'SALLA JACKSOM',
-    specialty: 'GETEL',
+    specialty: 'GTEL',
     rubrique: 11,
     imageUrl: '/images/rubriques/getel/stars/niska.jpg',
     title: 'niska',
+  },
+
+  {
+    id: 60,
+    name: 'Essama Anthony',
+    specialty: 'GTEL',
+    rubrique: 11,
+    imageUrl: '/images/rubriques/getel/stars/burna-boy.webp',
+    title: 'burna boy',
+  },
+  {
+    id: 61,
+    name: 'Mango Foe',
+    specialty: 'GTEL',
+    rubrique: 10,
+    imageUrl: '/images/rubriques/getel/SERIES/prison-break.jpg',
+    title: 'Prison Break',
+  },
+  {
+    id: 62,
+    name: 'Nsomo Cedric',
+    specialty: 'GTEL',
+    rubrique: 9,
+    imageUrl: '/images/rubriques/getel/musiques/last-last.jfif',
+    title: 'Last Last Burna boy',
   },
 ];
 
